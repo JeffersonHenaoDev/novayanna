@@ -1,116 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novayanna</title>
-</head>
-<body>
-
-    <h1>Novaynna</h1>
-    <p>Estamos actualizando para una mejor experiencia</p>
-    
-</body>
-</html><!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Novayanna</title>
-
+  <title>Novayanna - Un Nuevo Paraíso</title>
+  <link rel="icon" href="images/Favicon-Novayana.png" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- HEADER -->
+  <!-- ======= HEADER ======= -->
   <header class="header">
-    <div class="container nav">
-      <img src="images/logo.png" class="logo" />
-      <nav>
+    <div class="container nav-container">
+      <a href="#" class="logo-link">
+        <img src="images/logo-color-Novayana.png" alt="Novayanna" class="logo" />
+      </a>
+      <nav class="nav">
         <a href="#">Inicio</a>
-        <a href="#">Lotes</a>
-        <a href="#">Contacto</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#zonas">Zonas Comunes</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contáctanos</a>
       </nav>
+      <div class="header-contact">
+        <span>+57 315 222 4948</span>
+      </div>
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero" style="background-image:url('images/hero.jpg')">
-    <div class="overlay">
-      <p>Lotes desde $278.000.000 COP</p>
-      <h1>UN NUEVO PARAÍSO</h1>
-      <div class="buttons">
-        <a class="btn">Presencial</a>
-        <a class="btn">Virtual</a>
+  <!-- ======= HERO ======= -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <p class="hero-subtitle">Lotes desde $278.000.000 COP</p>
+      <h1 class="hero-title">JUN NUEVO PARAÍSO</h1>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn btn-primary">Presencial</a>
+        <a href="#contacto" class="btn btn-outline">Virtual</a>
       </div>
     </div>
   </section>
 
-  <!-- FEATURES BAR -->
+  <!-- ======= FEATURES BAR ======= -->
   <section class="features">
-    <div class="container grid">
-      <div><i class="fas fa-map"></i><p>Ubicación</p></div>
-      <div><i class="fas fa-home"></i><p>Lotes</p></div>
-      <div><i class="fas fa-users"></i><p>Comunidad</p></div>
-      <div><i class="fas fa-tree"></i><p>Naturaleza</p></div>
-      <div><i class="fas fa-cogs"></i><p>Servicios</p></div>
+    <div class="container features-grid">
+      <div class="feature-item">
+        <img src="images/iconos-features-1.png" alt="Parcelación campestre" />
+        <p>Parcelación campestre</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/iconos-features-2.png" alt="Vías pavimentadas" />
+        <p>Vías pavimentadas</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/iconos-features-3.png" alt="Servicios públicos" />
+        <p>Servicios públicos</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/iconos-features-4.png" alt="Zonas verdes" />
+        <p>Zonas verdes</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/iconos-features-5.png" alt="Seguridad 24/7" />
+        <p>Seguridad 24/7</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/iconos-features-6.png" alt="Club House" />
+        <p>Club House</p>
+      </div>
     </div>
   </section>
 
-  <!-- INFO -->
-  <section class="info container">
-    <p class="highlight">LOTES DESDE $278.000.000 COP</p>
-  </section>
-
-  <!-- CARACTERISTICAS -->
-  <section class="about container">
-    <div>
-      <h2>CARACTERÍSTICAS</h2>
-      <ul>
-        <li>230 Lotes parcelación cerrada</li>
-        <li>Servicios públicos</li>
-        <li>Vista panorámica</li>
-        <li>Vías pavimentadas</li>
-      </ul>
-    </div>
-    <img src="images/mapa.jpg" />
-  </section>
-
-  <!-- ZONAS -->
-  <section class="zones">
-    <h2>ZONAS COMUNES</h2>
-    <div class="container grid">
-      <div><i class="fas fa-store"></i><p>Mini Market</p></div>
-      <div><i class="fas fa-coffee"></i><p>Café</p></div>
-      <div><i class="fas fa-dog"></i><p>Dog Park</p></div>
-      <div><i class="fas fa-swimmer"></i><p>Zona húmeda</p></div>
+  <!-- ======= DESCRIPCIÓN ======= -->
+  <section class="descripcion">
+    <div class="container descripcion-inner">
+      <div class="descripcion-text">
+        <p>Novayanna es una parcelación campestre ubicada en el municipio de La Cumbre, Valle del Cauca. Un proyecto pensado para quienes buscan tranquilidad, naturaleza y calidad de vida, a solo minutos de Cali.</p>
+        <p>Disfruta de vistas panorámicas, aire puro y todos los servicios de una urbanización moderna en un entorno natural privilegiado.</p>
+      </div>
+      <div class="descripcion-cta">
+        <a href="#contacto" class="btn-cta">LOTES DESDE<br />$278.000.000 COP</a>
+      </div>
     </div>
   </section>
 
-  <!-- UBICACION -->
-  <section class="location container">
-    <img src="images/location.jpg" />
-    <div>
-      <h2>Ubicación Estratégica</h2>
-      <p>Ubicado en zona de alto crecimiento.</p>
+  <!-- ======= CARACTERÍSTICAS ======= -->
+  <section class="caracteristicas" id="caracteristicas">
+    <div class="container caracteristicas-inner">
+      <div class="caracteristicas-text">
+        <h2>CARACTERÍSTICAS</h2>
+        <ul>
+          <li>230 Lotes parcelación cerrada</li>
+          <li>6.000 m² de zonas comunes</li>
+          <li>Servicios públicos domiciliarios</li>
+          <li>Vista panorámica espectacular</li>
+          <li>Vías pavimentadas internas</li>
+          <li>Portería con control de acceso</li>
+          <li>Zonas verdes y senderos</li>
+          <li>Alumbrado público LED</li>
+        </ul>
+      </div>
+      <div class="caracteristicas-mapa">
+        <img src="images/IMAG-MAPA-HOME-1.jpg" alt="Mapa Novayanna" />
+        <img src="images/logo-color-novayana-2.png" alt="Logo" class="mapa-logo" />
+      </div>
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="cta">
-    <h2>Pregunta por nuestros descuentos</h2>
+  <!-- ======= ZONAS COMUNES ======= -->
+  <section class="zonas" id="zonas">
+    <div class="container">
+      <h2>ZONAS COMUNES</h2>
+      <div class="zonas-grid">
+        <div class="zona-item"><img src="images/ICON-ZC-1.png" alt="Mini Market" /><p>Mini Market</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-2.png" alt="Café" /><p>Café</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-3.png" alt="Dog Park" /><p>Dog Park</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-4.png" alt="Zona Húmeda" /><p>Zona Húmeda</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-5.png" alt="Jacuzzi" /><p>Jacuzzi</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-6.png" alt="Piscina" /><p>Piscina</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-7.png" alt="Turco" /><p>Turco</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-8.png" alt="Sauna" /><p>Sauna</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-9.png" alt="Salón Social" /><p>Salón Social</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-10.png" alt="Zona BBQ" /><p>Zona BBQ</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-11.png" alt="Cancha" /><p>Cancha</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-12.png" alt="Parque Infantil" /><p>Parque Infantil</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-13.png" alt="Senderos" /><p>Senderos</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-14.png" alt="Mirador" /><p>Mirador</p></div>
+        <div class="zona-item"><img src="images/ICON-ZC-15.png" alt="Plazoleta" /><p>Plazoleta</p></div>
+      </div>
+    </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="contact">
-    <h2>Contáctanos</h2>
-    <p>+57 315 222 4948</p>
+  <!-- ======= GALERÍA ======= -->
+  <section class="galeria">
+    <div class="galeria-grid">
+      <img src="images/atardecer-novayana.jpg" alt="Atardecer Novayanna" />
+      <img src="images/mirador.jpg" alt="Mirador Novayanna" />
+      <img src="images/plazoleta.jpg" alt="Plazoleta Novayanna" />
+      <img src="images/zona-bbq.jpg" alt="Zona BBQ Novayanna" />
+    </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ======= UBICACIÓN ======= -->
+  <section class="ubicacion" id="ubicacion">
+    <div class="container ubicacion-inner">
+      <div class="ubicacion-texto">
+        <h2>UBICACIÓN DE NOVAYANNA</h2>
+        <p>Novayanna se encuentra ubicada en el municipio de La Cumbre, Valle del Cauca, a tan solo 35 minutos de Cali por la vía al mar.</p>
+        <p>Un entorno de montaña con clima agradable durante todo el año, ideal para vivir en contacto con la naturaleza.</p>
+        <ul>
+          <li>35 minutos de Cali</li>
+          <li>Vía al mar — La Cumbre</li>
+          <li>1.500 m.s.n.m.</li>
+          <li>Clima templado todo el año</li>
+        </ul>
+      </div>
+      <div class="ubicacion-mapa">
+        <img src="images/ubicacion-novayana.jpg" alt="Mapa de ubicación Novayanna" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CTA BANNER ======= -->
+  <section class="cta-banner">
+    <div class="container">
+      <p>PREGUNTA POR NUESTROS DESCUENTOS DE LANZAMIENTO</p>
+    </div>
+  </section>
+
+  <!-- ======= CONOCE ======= -->
+  <section class="conoce">
+    <div class="container conoce-inner">
+      <div class="conoce-imagen">
+        <img src="images/VISTA-NVAYANA-1.jpg" alt="Vista Novayanna" />
+      </div>
+      <div class="conoce-texto">
+        <h2>CONOCE EL AIRE DE NOVAYANNA</h2>
+        <p>Descubre un estilo de vida diferente rodeado de naturaleza, vistas espectaculares y todas las comodidades que necesitas para disfrutar con tu familia.</p>
+        <p>Novayanna es más que un proyecto inmobiliario, es una comunidad pensada para el bienestar y la calidad de vida de sus habitantes.</p>
+        <a href="#contacto" class="btn btn-primary">Conocer más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACTO ======= -->
+  <section class="contacto" id="contacto">
+    <div class="container contacto-inner">
+      <div class="contacto-mapa">
+        <img src="images/mapa-contacto-1.png" alt="Mapa de contacto" />
+      </div>
+      <div class="contacto-form">
+        <h2>CONTÁCTANOS</h2>
+        <p>Déjanos tus datos y un asesor se comunicará contigo</p>
+        <form>
+          <input type="text" placeholder="Nombre completo" />
+          <input type="tel" placeholder="Teléfono" />
+          <input type="email" placeholder="Correo electrónico" />
+          <select>
+            <option value="">¿Cómo nos conociste?</option>
+            <option>Redes sociales</option>
+            <option>Referido</option>
+            <option>Internet</option>
+            <option>Otro</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+        <div class="contacto-telefono">
+          <p>+57 315 222 4948</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
   <footer class="footer">
-    <p>© 2026 Novayanna</p>
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="images/Logo-Novayana-Fondos.png" alt="Novayanna" />
+      </div>
+      <nav class="footer-nav">
+        <a href="#">Inicio</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#zonas">Zonas Comunes</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contáctanos</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Novayanna. Todos los derechos reservados.</p>
   </footer>
 
 </body>
